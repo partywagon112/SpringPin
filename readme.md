@@ -5,7 +5,7 @@ The best way to automate assembly for PCBs where spring pins are used where conn
 This can be tedious, so some automation is necessary. 
 
 # Installation (Kicad 6.0 >)
-Run setup.bat for Windows.
+Run setup.bat for Windows, this shoud ROBOCOPY everything into position... if it fails, you have to tinker.
 
 Linux assume you know what you're doing, cp ./src/SpringPin into the plugins directory.
 

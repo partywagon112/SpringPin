@@ -43,7 +43,7 @@ class MoveComponentsCSV(pcbnew.ActionPlugin):
     def __get_filepath(self) -> str:
         with wx.FileDialog(
             wx.GetActiveWindow(), 
-            "Open table defining location data.", 
+            "Open table defining location data", 
             wildcard="CSV Files (*.csv)|*.csv", 
             style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST) as file_dialog:
 
