@@ -1,0 +1,6 @@
+[project]
+name = "SpringPin"
+version = "0.1"
+dependencies = [
+    "pandas"
+]
